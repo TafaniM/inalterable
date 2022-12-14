@@ -1,17 +1,5 @@
 @import "bootstrap/scss/bootstrap-grid";
 
-.row + .row {
-  margin-top: 16px;
-}
-
-.row > .col,
-.row > [class^=col-] {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  background-color: rgba(86, 61, 124, .15);
-  border: 1px solid rgba(86, 61, 124, .2);
-}
-
 /* ====================================
 // css variables
 // ==================================== */
@@ -57,3 +45,45 @@ video {
 // base rules
 // ==================================== */
 
+/* header */
+
+.header {
+  background-image: url("../img/background-black.png");
+  padding-top: 60px;
+}
+
+.header h1 {
+  text-align: center;
+  font-size: 80px;
+  color: #FFFFFF;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  border-width: 3px; 
+  border-style: solid; 
+  border-color: #FFFFFF;
+}
+
+.header .sous-titre {
+  text-align: center;
+  font-size: 50px;
+  color: #FFFFFF;
+  font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+.menu p {
+  text-align: right;
+  font-size: 50px;
+  color: #FFFFFF;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+
+.img-header {
+  margin: 55px 0px 60px 0px;
+}
+
+.logo {
+  margin-top: 22px;
+}
+
+/* evenement */
