@@ -89,11 +89,11 @@ video {
 
 /* evenement */
 
-.evenement {
+.white {
   background-image: url("../img/background-white.png");
 }
 
-.evenement h2 {
+.white h2 {
   text-align: center;
   font-size: 70px;
   color: #000000;
@@ -102,18 +102,91 @@ video {
   margin: 100px 0px 15px 0px;
 }
 
-.evenement p {
+.white p {
   font-family: 'Saira Extra Condensed', sans-serif;
   font-size: 40px;
   border-width: 3px; 
   border-style: solid; 
   border-color: #000000;
   margin-top: 30px;
+  padding: 20px;
 }
 
-.evenement img {
+.white img {
   border-width: 3px; 
   border-style: solid; 
   border-color: #000000;
   margin-top: 30px;
+}
+
+/* carte */
+
+.black {
+  background-image: url("../img/background-black.png");
+}
+
+.black h2 {
+  text-align: center;
+  font-size: 70px;
+  color: #FFFFFF;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-transform: uppercase;
+  margin: 100px 0px 15px 0px;
+}
+
+.black p {
+  font-family: 'Saira Extra Condensed', sans-serif;
+  color: #FFFFFF;
+  font-size: 40px;
+  border-width: 3px; 
+  border-style: solid; 
+  border-color: #FFFFFF;
+  margin-top: 30px;
+  padding: 20px;
+}
+
+.black img {
+  border-width: 3px; 
+  border-style: solid; 
+  border-color: #FFFFFF;
+  margin-top: 30px;
+}
+
+.button p {
+  text-align: center;
+}
+
+.button {
+  padding-bottom: 60px;
+}
+
+/* qui sommes nous */
+
+.contact {
+  background-image: url("../img/background-black.png");
+}
+
+.contact h2 {
+  text-align: center;
+  font-size: 60px;
+  color: #FFFFFF;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-transform: uppercase;
+  margin: 100px 0px 60px 0px;
+}
+
+.contact img {
+  margin-left: 85px;
+  margin-bottom: 60px;
+}
+
+/* reglage taille */
+
+.badkatimg {
+  height: calc(50% - 30px);
+  object-fit: cover;
+}
+
+.badkattexte {
+  height: calc(40% - 30px);
 }
