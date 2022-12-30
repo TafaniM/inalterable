@@ -180,13 +180,32 @@ video {
   margin-bottom: 60px;
 }
 
-/* reglage taille */
+/* reglage taille evenement */
 
 .badkatimg {
-  height: calc(50% - 30px);
+  height: calc(65% - 30px);
   object-fit: cover;
 }
 
 .badkattexte {
   height: calc(40% - 30px);
 }
+
+.naboytexte {
+  height: calc(55% - 30px);
+}
+
+.naboyimg {
+  height: calc(50% - 30px);
+  object-fit: cover;
+}
+
+.texte1 {
+  height: calc(60% - 30px);
+}
+
+.texte2 {
+  height: calc(45% - 30px);
+}
+
+/* reglage taille carte */
