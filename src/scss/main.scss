@@ -209,3 +209,33 @@ video {
 }
 
 /* reglage taille carte */
+
+.verre1 {
+  height: calc(105% - 30px);
+  object-fit: cover;
+}
+
+.cocktailtexte {
+  height: calc(45% - 30px);
+}
+
+.verre2 {
+  height: calc(60% - 30px);
+  object-fit: cover;
+}
+
+.verre3 {
+  height: calc(105% - 30px);
+  object-fit: cover;
+}
+
+.verre4 {
+  height: calc(60% - 30px);
+  object-fit: cover;
+}
+
+.ingredientstexte {
+  height: calc(45% - 30px);
+}
+
+/* reglage taille qui sommes nous */
