@@ -154,13 +154,15 @@ video {
 
 .button p {
   text-align: center;
+  font-size: 30px;
 }
 
 .button {
   padding-bottom: 60px;
+  padding-top: 30px;
 }
 
-/* qui sommes nous */
+/* footer */
 
 .contact {
   background-image: url("../img/background-black.png");
@@ -178,6 +180,15 @@ video {
 .contact img {
   margin-left: 85px;
   margin-bottom: 60px;
+}
+
+.link {
+  width: auto;
+  margin: auto;
+}
+
+.phone {
+  margin-right: 85px;
 }
 
 /* reglage taille evenement */
