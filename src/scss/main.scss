@@ -239,3 +239,21 @@ video {
 }
 
 /* reglage taille qui sommes nous */
+
+.atrabileimg {
+  height: calc(105% - 30px);
+  object-fit: cover;
+}
+
+.atrabiletexte {
+  height: calc(50% - 30px);
+}
+
+.atrabileimg2 {
+  height: calc(55% - 30px);
+  object-fit: cover;
+}
+
+.barmantexte {
+  height: calc(105% - 30px);
+}
